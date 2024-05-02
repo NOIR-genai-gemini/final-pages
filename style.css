@@ -1,0 +1,96 @@
+/* General styles */
+body {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  margin: 0;
+  background: linear-gradient(0deg, #080808, #010144);
+  min-height: 100vh;
+}
+
+/* Header & Navigation styles */
+header {
+  padding: 10px 0px;
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 3.0em;
+  background: rgb(167, 242, 248);
+            background-image: linear-gradient(90deg, rgb(113, 217, 249) 0%, rgb(4, 117, 246) 50%, rgb(92, 200, 224) 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+
+/* Section styles */
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 400;
+
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 4em;
+  font-weight: 500;
+  color: whitesmoke;
+  background: rgb(167, 242, 248);
+            background-image: linear-gradient(90deg, rgb(113, 217, 249) 0%, rgb(4, 117, 246) 50%, rgb(92, 200, 224) 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 16px 48px;
+}
+
+.hero {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.gradient-text {
+  background-image: linear-gradient(-45deg, gold,red);
+  background-clip: text;
+  color: transparent;
+}
+
+#avatar-container {
+  height: 500px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#avatar-loading {
+  font-size: 3em;
+}
